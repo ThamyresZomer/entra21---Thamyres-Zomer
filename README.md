@@ -1,1 +1,0 @@
-# entra21---Thamyres-Zomer
