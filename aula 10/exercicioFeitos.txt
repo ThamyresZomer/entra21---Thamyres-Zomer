@@ -18,6 +18,92 @@ execicio 1
     console.log(i)
     }
 
-exercicio 2 
+exercicio 2
+ let i = 0
+    while (i < 11) {
+    console.log(i)
+    alert("Estou aparecendo pela primeira vez")
+    alert("Estou aparecendo pela segunda vez")
+    alert("Estou aparecendo pela terceira vez")
+    alert("Estou aparecendo pela quarta vez")
+    alert("Estou aparecendo pela quinta vez")
+    alert("Estou aparecendo pela sexta vez")
+    alert("Estou aparecendo pela setima vez")
+    alert("Estou aparecendo pela oitava vez")
+    alert("Estou aparecendo pela nona vez")
+    alert("Estou aparecendo pela decima vez")
+    i++ 
+
+    let i = 0
+    do {
+    alert("Estou aparecendo pela primeira vez")
+    alert("Estou aparecendo pela segunda vez")
+    alert("Estou aparecendo pela terceira vez")
+    alert("Estou aparecendo pela quarta vez")
+    alert("Estou aparecendo pela quinta vez")
+    alert("Estou aparecendo pela sexta vez")
+    alert("Estou aparecendo pela setima vez")
+    alert("Estou aparecendo pela oitava vez")
+    alert("Estou aparecendo pela nona vez")
+    alert("Estou aparecendo pela decima vez")
+
+    for (let i = 0; i < 3; i++) {
+    alert("Estou aparecendo pela primeira vez")
+    alert("Estou aparecendo pela segunda vez")
+    alert("Estou aparecendo pela terceira vez")
+    alert("Estou aparecendo pela quarta vez")
+    alert("Estou aparecendo pela quinta vez")
+    alert("Estou aparecendo pela sexta vez")
+    alert("Estou aparecendo pela setima vez")
+    alert("Estou aparecendo pela oitava vez")
+    alert("Estou aparecendo pela nona vez")
+    alert("Estou aparecendo pela decima vez")
+    i++ 
+
+    }
+
+exercicio 3 
+for (let i = 0; i < 11; i++) 
+ let numero = Number(prompt("digite um numero")
+ switch (numero) {
+     case 1: 
+     console.log(o numero é 10) }
+     break;
+
+     case 2: 
+     console.log(o numero é  9) }
+     break;
+
+case 3: 
+     console.log(o numero é 8) }
+     break;
+
+     case 4: 
+     console.log(o numero é 7) }
+     break;
+
+     case 5: 
+     console.log(o numero é 6) }
+     break;
+
+    case 6: 
+     console.log(o numero é 5) }
+     break;
+
+     case 7: 
+     console.log(o numero é 4) }
+     break;
+
+    case 8 : 
+     console.log(o numero é 3) }
+     break;
+
+    case  9: 
+     console.log(o numero é 2) }
+     break;
+
+     case 10: 
+     console.log(o numero é 1) }
+     break;
 
 
