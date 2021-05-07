@@ -1,0 +1,23 @@
+execicio 1
+    let i = 0
+    while (i < 11) {
+    console.log(i)
+    alert("ola mundo")
+    i++ 
+    }
+
+    let i = 0
+    do {
+    console.log(i)
+    alert("ola mundo")
+    i++
+    } while (i < 11)
+
+    for (let i = 0; i < 3; i++) {
+    alert("ola mundo") 
+    console.log(i)
+    }
+
+exercicio 2 
+
+
