@@ -428,5 +428,3 @@ while (contadorNumerosPrimos < 20) {
 }
 
 console.log(primos)
-
-
