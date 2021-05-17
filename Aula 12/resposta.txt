@@ -1,0 +1,161 @@
+1)
+        for (let i = 0; i < 10; i++) {
+        pares = 0 
+        for (let = i = 0; i < 10; i++)
+        vetor(i) = prompt("digite o $(1 +i)valor")
+
+        if vetor[i] % 2 == 0) pares++
+        }
+        console.log ("a quantidade dos numeros digitados foi: % (pares)")  
+
+2)
+        for (let i = 0; i < 5; i++) {
+        maior elemento= 0 
+        for (let = i = 0; i < 5; i++)
+        vetor(i) = prompt("digite o $(1 +i)valor")
+
+        if vetor [i] % 2 == 0) maior elemento++
+        }
+        console.log ("o maior elemento foi: % (maior elemento)")  
+
+3)
+        for (let i = 0; i < 5; i++) {
+        menorelemento = 0 
+        for (let = i = 0; i < 5; i++)
+        vetor(i) = prompt("digite o $(1 +i)valor")
+
+        if vetor [i] % 2 == 0) menor elemento++
+        }
+        console.log ("o menor elemento foi: % (menor elemento)")  
+
+4)
+
+        for (let i = 0; i < 5; i++)
+        vetor1 = 0
+        for ( let = i = 0;i < 5; i++ ) 
+        vetor(i) = prompt("digite o $( 1 + i) valor")
+
+        if vetor [i] % 2 == 0) 
+        }
+
+        for (let i = 0; i < 5; i++)
+        vetor2 = 0
+        for ( let = i = 0;i < 5; i++ ) 
+        vetor(i) = prompt("digite o $( 1 + i) valor")
+
+        if vetor [i] % 2 == 0) 
+        }
+
+        for (let i = numeros.length - 1; i >= 5; i--) {
+                    console.log(numeros[i])
+
+5)
+        for (let i = 0; i < 5; i++)
+        vetor1= nomes
+        for ( let = i = 0;i < 5; i++ ) 
+        vetor(i) = prompt("digite o $( 1 + i) valor")
+        console.log("digite o seu nome")
+        }
+
+        for  
+        console.log("ACHEI")   
+        }
+        if {
+        console.log("NÃO ACHEI")
+        }
+        console.log ("o menor elemento foi: % (menor elemento)")  
+
+6)
+
+        let valores [1, 0, 5, -2, -5, 7];
+
+        for(let i = 1; i< valor.length; i++) {
+            console.log(valores[ i - 1])
+        }
+
+        notas.forEarch(valor=> conosole.log(valor * 2))
+
+        function soma (1, 0, 5){
+            console.log (1 + 0 + 5)
+        }
+        let arrayConcatenado = novoArray.concat(1, 0, 5, 100, -5, 7)
+        console.log(1n/ 0n/ 5n/ 100n/ -5n/ 7n/);
+        -
+7)
+        let vetor = [] 
+        let vetor2 = []
+        for (let i = 0; i < 5; i++){
+            vetor[i] = +prompt("Digite um número")
+            vetor2[i]= vetor[i] ** 2
+        }
+        console.log(`vetor1: ${vetor.toString()}`)
+        console.log(`vetor2: ${vetor2.toString()}`)
+
+8) 
+        let valores [2, 4, 6, 8, 10, 12,];
+
+        for(let i = 1; i< valor.length; i++) {
+            console.log(valores[ i - 1])
+        }
+        for (let i = numeros.length - 1; i >= 0; i--) {
+                    console.log(numeros[2, 4, 6, 8, 10, 12,])
+                }
+
+9)
+
+        let valores []
+        let valores2 []
+        for (let i = 0; i < 8; i++){
+            vetor[i] = +prompt("Digite um número")
+            vetor2[i]= vetor[i] (x, y)
+        }
+            valores.forEarch(valor=> conosole.log(valor * 2))
+
+        function soma(x, y){
+            console.log(x + y)
+            console.log(`vetor1: ${vetor.toString()}`)
+            console.log(`vetor2: ${vetor2.toString()}`)
+        }
+            console.log("valor válido")
+        if else{ 
+            conosle.log("valor inválido")    
+            }
+
+10)
+        let vetor = [],
+            quantidadeNegativos = 0,
+            somaPositivos = 0
+        for (let i = 0; i < 10; i++) {
+            vetor[i] = +prompt("Digite um numero")
+            if (vetor[i] < 0) {
+                quantidadeNegativos++
+            } else {
+                somaPositivos += vetor[i]
+            }
+        }
+
+        console.log(`A quantidade de números negativos é: ${quantidadeNegativos}`)
+        console.log(`A soma dos números positivos é: ${somaPositivos}`)
+
+11)
+        let vetor = []
+
+        for(let i = 0;i < 5; i++){
+            let numero = Number(prompt("Digite um número"))
+            vetor[i] = numero 
+        }
+        let maiorNumeroPosicao = 0
+        let menorNumeroPosicao = 0
+
+        for(let i = 0;i < 5; i++){
+            if(vetor[i] < vetor[menorNumeroPosicao]){
+                menorNumeroPosicao = i 
+            }else if(vetor[i] > vetor[maiorNumeroPosicao]){
+                maiorNumeroPosicao = i 
+            }
+            
+        }
+        console.log(`menor numero ${vetor[menorNumeroPosicao]}`)
+        console.log(`maior numero ${vetor[maiorNumeroPosicao]}`)
+        
+12)
