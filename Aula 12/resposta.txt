@@ -159,3 +159,120 @@
         console.log(`maior numero ${vetor[maiorNumeroPosicao]}`)
         
 12)
+let jogadas = [],
+    contadorJogadas = [0, 0, 0, 0, 0, 0]
+
+for (let i = 0; i < 100; i++) {
+    jogadas[i] = Math.floor(Math.random() * (7 - 1)) + 1
+
+    switch (jogadas[i]) {
+        case 1:
+            contadorJogadas[0]++
+            break
+        case 2:
+            contadorJogadas[1]++
+            break
+        case 3:
+            contadorJogadas[2]++
+            break
+        case 4:
+            contadorJogadas[3]++
+            break
+        case 5:
+            contadorJogadas[4]++
+            break
+        case 6:
+            contadorJogadas[5]++
+            break
+    }
+}
+
+for (let i = 0; i < 6; i++) {
+    console.log(`O número ${i + 1} apareceu ${contadorJogadas[i]} vezes`)
+}
+
+13)
+let notas = [],
+    i = 0,
+    acumuladorNotas = 0,
+    maiorNota = 0
+    
+while (true) {
+    let nota = +prompt("Digite uma nota") 
+    
+    if (nota < 0) {
+        break
+    }
+
+    notas[i] = nota
+
+    if (notas[i] > maiorNota) maiorNota = notas[i]
+
+    acumuladorNotas += notas[i]
+    i++
+}
+
+let media = acumuladorNotas / notas.length
+
+console.log(`Média da turma: ${media.toFixed(2)}\nMaior nota: ${maiorNota}`)
+
+14)
+let vetor1 = [],
+    vetor2 = []
+
+for (let i = 0; i < 5; i++) {
+    vetor1[i] = +prompt(`Digite o ${i + 1}º valor do primeiro vetor`)
+}
+
+let saoIguais = true    
+for (let i = 0; i < 5; i++) {
+    vetor2[i] = +prompt(`Digite o ${i + 1}º valor do segundo vetor`)
+
+    if (vetor1[i] != vetor2[i]) {
+        saoIguais = false
+    }
+}
+
+if (saoIguais) {
+    console.log("Os vetores são iguais")
+} else {
+    console.log("Os vetores são diferentes")
+}
+
+15)
+let vetor1 = [],
+    vetor2 = []
+
+for (let i = 0; i < 5; i++) {
+    vetor1[i] = prompt(`Digite o ${i + 1} valor do primeiro vetor`)
+}
+
+for (let i = 0; i < 5; i++) {
+    vetor2[i] = prompt(`Digite o ${i + 1} valor do segundo vetor`)                        
+}
+
+let interseccao = []
+
+for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 5; j++) {
+        if (vetor1[i] === vetor2[j]) {
+            interseccao.push(vetor1[i])
+        } 
+    }            
+}
+
+console.log(`Vetor 1: ${vetor1}\nVetor 2: ${vetor2}\nIntersecção: ${interseccao}`)
+
+16)
+let numero1 = +prompt("Digite o valor do primeiro numero"),
+    numero2 = +prompt("Digite o valor do segundo número"),
+    aux = numero1
+
+if (numero1 > numero2) {
+    numero1 = numero2
+    numero2 = aux
+}
+
+for (let i = numero1; i <= numero2; i += 2) {
+    console.log(i)
+}

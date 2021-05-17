@@ -37,4 +37,71 @@
         console.log(mostrandoMatriz)
 
 3)
-        
+
+let matriz = []
+for (let i = 0; i < 3; i++) {
+	let elemento = x
+
+	matriz[i] = []
+}
+for (let j = 0; j < 3; j++) {
+console.log("digite o numero dos vetores")
+
+
+
+4)
+let matriz = []
+for (let i = 0; i < 3; i++) {
+ matriz[i] = []
+for (let j = 0; j < 3; j++) {
+matriz[i][j] = +prompt("Digite um número")
+
+}
+
+{
+ let matriz = []
+for (let i = 0; i < 3; i++) {
+ matriz[i] = []
+for (let j = 0; j < 3; j++) {
+matriz[i][j] = +prompt("Digite um número")
+}
+
+{
+for (i = 0 ; i < 3; i ++)
+for (j = 0 ; j < 3 ; j ++) {
+			
+if (M1 [i] [j]> M2 [i] [j])
+ M3 [i] [j] = M1 [i] [j];
+if else M3 [i] [j] = M2 [i] [j];
+console.log ( " \ n O maior elemento da posição [% d] [% d] é:% d " , i, j, M3 [i] [j]);}
+
+
+5)
+ {
+ let matriz[]
+ for (i=0;i<3;i++){
+ for (j=0;j<3;j++){
+  let("%6d",a[i][j]);
+    };
+  console.log("\n");
+  };
+  console.log("\n");
+};
+
+let matriz[] {
+let v[3][3];
+let i,j,soma=0 ;
+
+  for (i=0;i<3;i++) {
+    for (j=0;j<3;j++) {
+
+     console.log("Informe o valor do elemento %d/%d",i,j);
+     console.log("%d",&v[i][j]);
+    }
+  };
+  for (i=0;i<3;i++) {
+    soma += v[i][3-i-1];
+  };
+
+
+ 6)
