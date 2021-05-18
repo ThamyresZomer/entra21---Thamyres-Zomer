@@ -1,0 +1,49 @@
+2)
+     let numeroa = +prompt("Digite um número")
+    let numerob = +prompt("Digite outro número")
+
+    function menorValorEntreNumeros(numeroa, numerob){
+    if (numeroa > numerob) {
+                return numerob
+        } return numeroa
+    }
+    let menorNumero = menorValorEntreNumeros(numeroa, numerob)
+    console.log(`menor número ${menorNumero}`)
+
+3)let numeroa = +prompt("Digite um número")
+    let numerob = +prompt("Digite outro número")
+
+    function numerosPotencias(numeroa, numerob){
+    
+    if (numeroa ** numerob) {
+                return 
+        } 
+    }
+    console.log(`Resultado ${numeroa ** numerob}`)
+
+4) let notaa = +prompt("Digite a primera nota")
+    let notab = +prompt("Digite a segunda nota")
+    let notac = +prompt("digite a terceira nota")
+
+    function mediaNotas(notaa, notab, notac){
+    
+        let media = (notaa + notab + notac) / 3
+        return media 
+    }
+    let media = mediaNotas(notaa, notab, notac)
+    console.log(`Resultado ${media.toFixed(2)}`)
+
+    5) let media = +prompt("digite uma media")
+   function conceituarMedia(media){
+       if (media < 5){
+        return "d" 
+       } else if(media < 7) {
+        return "c"
+       } else if(media < 9){
+           return "b"
+       }return "a"
+   }
+   let conceito = conceituarMedia(media) 
+   console.log(`conceito da sua media é ${conceito}`) 
+
+   6)
