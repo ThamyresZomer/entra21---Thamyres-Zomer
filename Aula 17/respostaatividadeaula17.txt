@@ -47,3 +47,25 @@
    console.log(`conceito da sua media é ${conceito}`) 
 
    6)
+         let altura = +prompt("digite sua altura")
+    let sexo = prompt("digite seu sexo ( M para masculino, F para feminino)") 
+    
+    function pesoIdeal(sexo, altura){
+    switch (sexo) {
+        case "M":
+            let pesoIdealHomem = 72.7 * altura - 58
+            return pesoIdealHomem            
+        case "F":
+            let pesoIdealMulher = 62.1 * altura - 44.7
+            return pesoIdealMulher            
+    }
+    }
+     
+     let peso =  pesoIdeal(sexo, altura)
+     if (peso) {
+        console.log(`Seu peso ideal é ${peso}`)             
+     } else {
+        console.log("Valores inválidos")
+     }
+
+     7)

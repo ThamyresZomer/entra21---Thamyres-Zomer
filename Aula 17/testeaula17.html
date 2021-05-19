@@ -9,8 +9,18 @@
 <body>
     <script>
 
-
+         
+let idade = +prompt("digite sua idade(exemplo:  17 anos, 2 meses e 24 dias")
+function dataDeNascimento(dia, mes, ano){
+    return 365 * ano + mes * 30 + dia
+}
+let tempoDeVida = dataDeNascimento(dia, mes, ano)
+console.log (`Você tem ${tempoDeVida} dias de vida`)
+ 
+    
      
+
+
     </script>
 </body>
 </html>
