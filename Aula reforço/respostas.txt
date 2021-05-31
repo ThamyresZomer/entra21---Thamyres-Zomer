@@ -1,0 +1,49 @@
+// algoritimos
+1 
+
+let meses = +prompt("digite a quantidade de meses")
+let soma = meses *  30
+console.log (meses)
+
+2 
+let preco = +prompt("digite o preço do produto")
+let desconto =  + prompt("digite o percentual do desconto")
+let valorDesconto =  precoDesconto * (desconto / 100)
+alert (`desconto ${desconto /n preco : %{preco (2)}})
+
+// if 
+
+1 
+{
+    let numero = +prompt("digite um número")
+    }if (numero % 2 === 0 ) {
+        console.log("O número é par")
+    } else {
+        console.log("O número é ímpar")
+    }
+
+2 
+let salario = +prompt("digite o seu salario") 
+let prestacao = +prompt("digite a prestação")
+ let porcetagemSalario = 0.2 * salario 
+             if (prestacao < porcetagemSalario) {
+                console.log("Emprestimo concedido")
+            } else {
+                console.log("Emprestimo não concedido")
+            }
+            
+3
+
+// loops
+
+let somaValores = 0
+for (let i = 0; i < 5; i++) {
+    let valores = +prompt ("digite os valores")
+}
+somaValores+= valor
+let media = somaValores /5
+console.log (`A soma dos valores é ${acumuladora.toFixed (2) }`)
+
+// vetores 
+
+1 

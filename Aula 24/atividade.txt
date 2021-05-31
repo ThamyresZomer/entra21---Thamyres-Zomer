@@ -1,0 +1,25 @@
+1.
+  function estaVazio {
+
+  }
+  function isEmpty(objeto) {
+      return objeto.keys(objeto).length === 0;
+  }
+
+
+2. 
+
+let objeto = {
+            "+1": 20,
+            "+2": 50,
+            "+3": 85,
+            "+4": "Olá",
+            "+5": "Teste"
+            "+6": "string",
+            '+7": 10 
+        }
+
+for (let chave in objeto2) {
+    console.log(+chave)
+}
+        console.log(Object.assign({}, , ))
