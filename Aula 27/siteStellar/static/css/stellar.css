@@ -2,15 +2,18 @@ body {
     background-image: url(images/overlay.png), linear-gradient(45deg , #e37682 15%, #5f4d93 85%);
     font-family: 'Source Sans Pro', sans-serif;
  }
-
+li {
+    list-style: none;
+}
+h2, p{
+    padding-bottom: 15px;
+}
 * {
     margin: 0;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.clearfix {
+    column-count: 2;
 }
 
 .wrapper {
@@ -73,12 +76,20 @@ section {
 
 
 .imagem {
-
-    width: 40%;
-    float: right;
+    width: auto;
     text-align: center;
+    border-radius: 100%;
 }
 
 .imagem img {
     border-radius: 50%;
 }
+div.conteudo{
+    margin: 50px 80px;
+    color:  rgb(138, 136, 136);
+}
+
+ div.features{
+    margin: 50px 80px;
+    color:  rgb(138, 136, 136);
+ }
