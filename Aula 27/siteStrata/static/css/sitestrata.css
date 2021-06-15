@@ -4,66 +4,276 @@
     background-image: url(../img/montanha.jpg);
     background-attachment: scroll;
     background-position: center center;
-    background-size: auto, cover;
-    left: right;
-    position: relative;
-    text-align: center;
-    top: auto;
-    width: 100%;
-    display:block;
-    justify-content: space-between;
-    flex-direction: column;
-    align-self: flex-end;
-    justify-content: space-between;
-    background-color: #1f1815;
+    background-size: auto, cover;        
+    text-align: center;                                
     color: rgba(255, 255, 255, 0.5);
-    height: 100%;
-    
 } 
 
-*, *:before, *:after {
-    box-sizing: inherit;
+img {
+    max-width: 100%;
 }
 
-img, textarea {
+#header img {
+    border-radius: 50%;
+}
+
+.static.img.avatar.jpg{
     max-width: 100%;
     display: block;
 }
 
+.learn-button {
+    display: block;
+    padding: 0px 24px;
+    line-height: 3.5;
+    color: #787878;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: color .5s, border-color .5s;
+}
+
+.learn-button:hover {
+    color: #49bf9d;
+    border-color: #49bf9d;
+}
+
+
 body{
     -webkit-text-size-adjust: none;
+    text-align: center;
 }
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+body, input,select, textarea{
     color: #a2a2a2;
 }
 div.main{
     padding: 2.25em 1.5em 0.25em 1.5em;
     margin: 0;
-    width: 100%;
-    max-width: none;
 }
 
-#botton{
-    appearance: none;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    background-color: transparent;
-    border-radius: 0.35em;
-    border: solid 3px #efefef;
-    color: #787878 !important;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    height: calc(2.75em + 6px);
-    line-height: 2.75em;
-    min-width: 10em;
-    padding: 0 1.5em;
+
+section.first.child{
+    margin: 4em 0 0 0;
+    padding: 4em 0 0 0;
+    display: block;
     text-align: center;
-    text-decoration: none ;
-    white-space: nowrap;
+}
+
+
+h2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+p{
+margin: 0 0 2em 0;
+display: block;
+margin-block-start: 1em;
+margin-inline-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+ul.actions{
+    display: flex;
+    cursor: default;
+    list-style: none;
+    margin-left: 1em;
+    padding-left: 0;
+}
+ul.actions{
+    margin: 0 0 2em 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 40px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.image1.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image1.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+    max-width:100%;
+}
+
+.image2.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image2.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+    max-width:100%;
+}
+
+.image3.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image3.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+    max-width:100%;
+}
+
+.image4.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image4.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+   max-width:100%;
+}
+
+.image5.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image5.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+    max-width:100%;
+}
+
+.image6.jpg{
+    transition: opacity 0.2s ease-in-out;;
+    background-image: url(../img/image6.jpg);
+    border-radius: 0,35em;
+    content: '';
+    display: block;
+    height: 100%;
+    left:0;
+    right: 0;
+   max-width:100%;
+}
+
+div.row{
+  width: 100%;  
+  margin: 0 0 2em 0;
+  padding: 0 0 2em 0;
+  box-sizing: border-box;
+}
+
+h3{
+    color: #787878;
+    font-weight: 400;
+}
+
+.portifoly.button{
+    display: block;
+    padding: 0px 24px;
+    line-height: 3.5;
+    color: #787878;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: color .5s, border-color .5s;
+}
+
+.portifoly.button:hover{
+    color: #49bf9d;
+border-color: #49bf9d;
+}
+
+imput[type="text"], imput[type="password"], imput[type="e-mail"], select{
+    height: 2.75em;
+    appearance: none;
+    background-color:#f7f7f7 ;
+    border-radius: 0.35em;
+    border: solid 2px transparent;
+    color: inherit;
+    padding: 0 0.75em;
+    width: 100%;
+}
+
+body,input,select,textarea {
+ font-size: 12pt;
+ font-family: "Source Sans Pro", Helvetica, sans-serif;
+ font-weight: 400;
+ line-height: 1.75em;
+ appearance: none;
+ appearance: none;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+imput[type="text"], imput[type="password"], imput[type="e-mail"], select{
+appearance: none;
+    background: #f7f7f7;
+    border-radius: 0.35em;
+    border: solid 2px transparent;
+    color: inherit;
+    display: block;
+    outline: 0;
+}
+
+ul.labeled-icons {
+    list-style: none;
+    padding: 0;
+}
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #2a2a2a;
+}
+
+#footer {
+    padding: 2.25em 1.5em;
+}
+
+#footer {
+    background-attachment: scroll;
+    background-color: #1f1815;
+    background-image: url(../img/montanha.jpg);
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    bottom: auto;
+    left: auto;
+    padding: 4em 4em 6em 4em;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
