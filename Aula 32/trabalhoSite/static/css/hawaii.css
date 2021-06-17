@@ -1,0 +1,22 @@
+
+body{
+    background-image: linear-gradient(45deg ,#faf600 17%, #09f8ec 85%  #f86909 60%);
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-size-adjust: none;
+    text-align: center;
+ }
+
+ div.parte5:{
+    color: #ffefef;
+ }
+
+ section.Hawaii{
+    font-size: 1.5em;
+    line-height: 1.5em;
+ }
+
+ img{
+     border-radius: 100% ;
+ }
+
+ 

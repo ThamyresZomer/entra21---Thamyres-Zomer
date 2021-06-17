@@ -1,0 +1,19 @@
+body{
+    background-color: 45px ,#faf600 17%, #09f8ec 85%  #f86909 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-size-adjust: none;
+    text-align: center;
+ }
+
+ div.parte4:{
+    color: #ffefef;
+ }
+
+ section.Londres{
+    font-size: 1.5em;
+    line-height: 1.5em;
+ }
+
+ img{
+     border-radius: 100% ;
+ }
