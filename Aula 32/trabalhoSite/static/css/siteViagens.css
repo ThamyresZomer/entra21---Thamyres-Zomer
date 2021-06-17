@@ -4,9 +4,10 @@ body{
     -webkit-text-size-adjust: none;
     text-align: center;
 }
+
             .dropbtn {
-              background-color: #4CAF50;
-              color: white;
+              background-color: rgba(0, 0, 0, 0.514) 10px solid ;
+              color:rgba(0, 0, 0, 0.514) 10px solid ;
               padding: 16px;
               font-size: 16px;
               border: none;
@@ -21,38 +22,35 @@ body{
             .dropdown-content {
               display: none;
               position: absolute;
-              background-color: #f9f9f9;
+              background-color: #f9f9f99c;
               min-width: 160px;
               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
               z-index: 1;
             }
             
             .dropdown-content a {
-              color: black;
+              color: rgba(0, 0, 0, 0.514) 10px solid ;
               padding: 12px 16px;
               text-decoration: none;
               display: block;
             }
             
-            .dropdown-content a:hover {background-color: #f1f1f1}
+            .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.514) 10px solid ;}
             
             .dropdown:hover .dropdown-content {
               display: block;
             }
             
             .dropdown:hover .dropbtn {
-              background-color: #3e8e41;
+              background-color: rgba(0, 0, 0, 0.514) 10px solid ;
             }
 div.navegador{
-    background-color: rgb(168, 229, 253);
+    background-color: linear-gradient(90deg, #f1c40f, #c0392b);
     padding: 10px;
-    border: rgb(168, 229, 253) 10px solid ;
-    outline: rgb(168, 229, 253) 5px solid;
+    border: rgba(0, 0, 0, 0.514) 10px solid ;
+    outline: rgba(0, 0, 0, 0.514) 10px solid ;
     margin: 10px; 
     border-radius: 10% ;  
-}
-nav.botões{
-    color: rgb(90, 156, 182) 10px solid ;
 }
 
 div.body{
@@ -62,10 +60,70 @@ div.body{
     border-radius: 10px;
     max-width: calc(100% - 4em);
 }
-    
+ 
+img{
+  border-radius: 100% ;
+}
 
 .title {
-    background-image: linear-gradient(to left,#f1c40f 50%, #c0392b 50%);
+    background-image: linear-gradient(to left,#f1c40f 47%, #c0392b 50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    text-align: center;
 }
+
+.button1{
+  border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,#f1c40f 20%, #c0392b 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.button2{
+  border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,#f1c40f 20%, #c0392b 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.button3{
+  border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,#f1c40f 20%, #c0392b 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.button4{
+  border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,#f1c40f 20%, #c0392b 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.button5{
+  border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,#f1c40f 20%, #c0392b 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+

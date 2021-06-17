@@ -1,12 +1,11 @@
-
 body{
-    background-image: linear-gradient(45deg ,#faf600 17%, #09f8ec 85%  #f86909 60%);
-    font-family: 'Source Sans Pro', sans-serif;
-    -webkit-text-size-adjust: none;
-    text-align: center;
- }
+   background-image: linear-gradient(90deg, #f1c40f, #c0392b); 
+   font-family: 'Source Sans Pro', sans-serif;
+   -webkit-text-size-adjust: none;
+   text-align: center;
+}
 
- div.parte5:{
+div.parte5{
     color: #ffefef;
  }
 
@@ -18,5 +17,15 @@ body{
  img{
      border-radius: 100% ;
  }
-
- 
+ div.body{
+   margin: auto;
+   background: white;
+   width: 80%;
+   border-radius: 10px;
+   max-width: calc(100% - 4em);
+}
+.title {
+   background-image: linear-gradient(to left,#f1c40f 47%, #c0392b 50%);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}

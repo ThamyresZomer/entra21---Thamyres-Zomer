@@ -5,9 +5,8 @@ body{
    text-align: center;
 }
 
-div.parte6:{
+div.parte6{
     color: #ffefef;
-
  }
 
  section.Paris{
@@ -24,4 +23,10 @@ div.parte6:{
    width: 80%;
    border-radius: 10px;
    max-width: calc(100% - 4em);
+}
+
+.title {
+   background-image: linear-gradient(to left,#f1c40f 47%, #c0392b 50%);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
 }
