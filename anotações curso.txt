@@ -1,0 +1,96 @@
+git init.
+
+git add. \ (arquivo) / git add (arquivo)
+
+git commit -m "Commit Inicial"
+
+git config --global --list
+
+git config --global user.name "nome" / git config --global user.name "João Victor"
+
+git config --global user.email "email" / git config --global user.email "joao.ervilhojv@gmail.com"
+
+git clone <Url>
+
+git branch -M main / branch no master
+
+git remote add origin https://github.com/JoaoVictorCB/trabalhando-git.git / git remote add origin <url>
+
+git push -u origin main
+
+git status
+
+git log
+
+git show <hashCommit>
+
+ramo git <bug / 1> - Cria uma nova linha do tempo
+
+git checkout <bug / 1>
+
+git reset <hash> --hard
+
+git checkout -b features / 1
+
+git push - empurrar
+
+git pull - puxar
+
+** git init ** // Inicia a linha do tempo
+** git add ** // Adiciona ou atualiza mudanças na área de staging
+** git commit ** // Adiciona um ponto na linha do tempo
+** git remote add ** // Adiciona o link de um repositório remoto ao repositório local
+** git push ** // Envia mudanças locais para o repositório remoto
+** git log ** // Visualiza os pontos na linha do tempo (commits)
+** git status ** // Informa o estado das mudanças do nosso projeto
+** git show ** // Apresenta determinando ponto na história
+** git clone ** // Clonar um repositório
+** git pull ** // Puxar mudanças do repositório remoto
+
+** git branch ** // Gerenciar novas linhas do tempo
+** git checkout ** // Manipula as linhas do tempo
+** git reset ** // Voltar para um ponto na linha do tempo
+** git merge ** // Unir as linhas do tempo
+
+** fork ** // Criar uma bifurcação de um repositório
+
+Padrão de design:
+https://refactoring.guru/pt-br/design-patterns
+
+https://www.opus-software.com.br/design-patterns/
+
+https://developer.mozilla.org/pt-BR/docs/Web/Tutorials
+
+Html:
+
+https://www.w3schools.com/
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+Compatibilidade:
+
+https://caniuse.com/
+
+gradiente ui:
+
+https://uigradients.com/#SweetMorning
+
+Documentos Emmet: Abreviação da sintaxe:
+
+https://docs.emmet.io/abbreviations/syntax/
+
+Metodologia css:
+
+http://getbem.com/introduction/
+
+https://medium.com/trainingcenter/bem-em-5min-f5c80fd23439
+
+Tamanho de fonte (CSS): rem;
+
+Posicionamento (CSS): em;
+
+site: wix
+
+apresentação de slides: https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+lightbox: https://www.w3schools.com/howto/howto_js_lightbox.asp

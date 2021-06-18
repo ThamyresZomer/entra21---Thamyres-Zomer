@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(90deg, #f1c40f, #c0392b); 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Copperplate", Papyrus, fantasy;
+    font-size: 30px;
     -webkit-text-size-adjust: none;
     text-align: center;
 }
@@ -22,9 +23,9 @@ body{
             .dropdown-content {
               display: none;
               position: absolute;
-              background-color: #f9f9f99c;
+              background-color: #d477779c;
               min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.308);
               z-index: 1;
             }
             
@@ -83,6 +84,7 @@ img{
   border-bottom: 1px dotted;
 }
 
+
 .button2{
   border-radius: 12px;
   font-size: 50px;
@@ -125,5 +127,48 @@ img{
   font-size: 20px;
   text-decoration: none;
   border-bottom: 1px dotted;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }
 
