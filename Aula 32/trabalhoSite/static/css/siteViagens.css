@@ -153,11 +153,6 @@ body {
   float: left;
   padding: 10px;
 }
-
-.column.side {
-  width: 25%;
-}
-
 .column.middle {
   width: 50%;
 }
@@ -168,7 +163,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+   .column.middle {
     width: 100%;
   }
 }

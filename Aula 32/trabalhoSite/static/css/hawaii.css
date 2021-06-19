@@ -1,32 +1,34 @@
 body{
-   background-image: linear-gradient(90deg, #f1c40f, #c0392b); 
-   font-family: "Copperplate", Papyrus, fantasy;
-   -webkit-text-size-adjust: none;
-   text-align: center;
-}
-
-div.parte6{
-    color: #ffefef;
+    background-image: linear-gradient(90deg, #f1c40f, #c0392b); 
+    font-family: "Copperplate", Papyrus, fantasy;
+    -webkit-text-size-adjust: none;
+    text-align: center;
  }
+ 
+ div.parte5{
+     color: #141414;
+  }
+ 
+  section.Hawaii{
+     font-size: 1.5em;
+     line-height: 1.5em;
+  }
+ 
+  img{
+      border-radius: 100% ;
+  }
+  div.corpo{
+    margin: auto;
+    background:  rgba(255, 255, 255, 0.671);
+    color:#141414;
+    width: 80%;
+    border-radius: 10px;
+    max-width: calc(100% - 4em);
+  }
 
- section.Paris{
-    font-size: 1.5em;
-    line-height: 1.5em;
+ .title {
+    background-image: linear-gradient(to left,#f1c40f 47%, #c0392b 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
  }
-
- img{
-     border-radius: 100% ;
- }
- div.body{
-   margin: auto;
-   background: white;
-   width: 80%;
-   border-radius: 10px;
-   max-width: calc(100% - 4em);
-}
-
-.title {
-   background-image: linear-gradient(to left,#f1c40f 47%, #c0392b 50%);
-   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
-}
+ 

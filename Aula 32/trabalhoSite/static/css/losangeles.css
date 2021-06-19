@@ -19,7 +19,7 @@ div.parte2{
  }
  div.body{
    margin: auto;
-   background: white;
+   background: rgba(255, 255, 255, 0.671);
    width: 80%;
    border-radius: 10px;
    max-width: calc(100% - 4em);
