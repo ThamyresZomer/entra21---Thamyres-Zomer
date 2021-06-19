@@ -7,12 +7,13 @@ body{
 }
 
             .dropbtn {
-              background-color: rgba(0, 0, 0, 0.514) 10px solid ;
-              color:rgba(0, 0, 0, 0.514) 10px solid ;
+              background-color: linear-gradient(90deg, #f1c40f, #c0392b);
+              color:linear-gradient(90deg, #f1c40f, #c0392b);
               padding: 16px;
               font-size: 16px;
               border: none;
               cursor: pointer;
+              border-radius: 100% ;
             }
             
             .dropdown {
@@ -25,7 +26,7 @@ body{
               position: absolute;
               background-color: #d477779c;
               min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.308);
+              box-shadow: linear-gradient(90deg, #f1c40f, #c0392b);
               z-index: 1;
             }
             
@@ -43,7 +44,7 @@ body{
             }
             
             .dropdown:hover .dropbtn {
-              background-color: rgba(0, 0, 0, 0.514) 10px solid ;
+              background-color: linear-gradient(90deg, #f1c40f, #c0392b);
             }
 div.navegador{
     background-color: linear-gradient(90deg, #f1c40f, #c0392b);
@@ -56,7 +57,7 @@ div.navegador{
 
 div.body{
     margin: auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.671);
     width: 80%;
     border-radius: 10px;
     max-width: calc(100% - 4em);
@@ -82,6 +83,7 @@ img{
   font-size: 20px;
   text-decoration: none;
   border-bottom: 1px dotted;
+ 
 }
 
 
