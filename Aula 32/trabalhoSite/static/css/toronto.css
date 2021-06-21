@@ -16,6 +16,7 @@ div.parte3{
 
  img{
      border-radius: 100% ;
+     max-width: 100%;
  }
  div.body{
    margin: auto;
