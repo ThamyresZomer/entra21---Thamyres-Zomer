@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <!-- Exercicio 1 -->
+
+    <html>
+        <body>
+            <div>Users:</div>
+            <ul>
+                <li>John</li>
+                <li>Pete</li>
+            </ul>
+        </body>
+        </html>
+
+        <!-- Exercicio 2 -->
+
+        Dado o seguinte HTML:
+        <html>
+        <body>
+            <form name="search">
+                <label>Search the site:
+                    <input type="text" name="search">
+                </label>
+                <input type="submit" value="Search!">
+            </form>
+
+            <hr>
+
+            <form name="search-person">
+                Search the visitors:
+                <table id="age-table">
+                    <tr>
+                        <td>Age:</td>
+                        <td id="age-list">
+                        <label>
+                            <input type="radio" name="age" value="young">less than 18</label>
+                        <label>
+                            <input type="radio" name="age" value="mature">18-50</label>
+                        <label>
+                            <input type="radio" name="age" value="senior">more than 50</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Additionally:</td>
+                        <td>
+                        <input type="text" name="info[0]">
+                        <input type="text" name="info[1]">
+                        <input type="text" name="info[2]">
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="submit" value="Search!">
+            </form>
+        </body>
+        </html>
+
+        Diga como acessar:
+        1. A <table> com o id="age-table".
+            let elemento = document.getElementById("age-tabel")
+
+        2. Todos os elementos <label> dentro da <table> (3 elementos).
+           let elementos = document.querySelectorAll("td > label:children")
+
+        3. O primeiro <td> na tabela (com a palavra "Age").
+            let elementos = document.querySelectorAll("td > label:first-child")
+
+        4. O <form> com name="search".
+            let elemento = document.getElementById("search")
+
+        5. O primeiro <input> nesse form.
+        let elementos = document.querySelectorAll("form> imput:first-child") 
+
+        6. O último <input> nesse form.  
+        let elementos = document.querySelectorAll("form> imput:last-child") 
+        */
+        <!-- Exercicio 3 -->
+
+        Dado o seguinte HTML:
+        
+        <a name="list">the list</a>
+        <ul>
+            <li><a href="http://google.com">http://google.com</a></li>
+            <li><a href="/tutorial">/tutorial.html</a></li>
+            <li><a href="local/path">local/path</a></li>
+            <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+            <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+            <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+        </ul>
+
+        Torne a cor dos links externos em laranja.
+        Um link é considerado externo quando:
+        1. O atributo href tem ://
+        2. Não começa com http://internal.com
+
+        // Selecionando um link
+        let link = document.querySelector('a');
+
+        // Aplicando a cor laranja
+        link.style.color = 'orange';
+        */
+
+        <!-- Exercicio 3 -->
+
+        1 - Crie uma função clear(elem) que remove todos os filhos de um elemento.
+
+        Utilize o seguinte HTML para testar:
+        <ol id="elem">
+            <li>Filho 1</li>
+            <li>Filho 2</li>
+        </ol>
+
+
+    
+
+
+        2 - Insira <li>Item 2</li><li>Item 3</li> na seguinte lista:
+        <ul>
+            <li>Item 1</li>
+            <li>Item 4</li>
+        </ul>
+
+        Insira os elementos na ordem correta.
+
+        3 - Escreva o script necessário para adicionar em cada <li> o número de descendentes (se houver).
+        <ul>
+            <li>Animais
+                <ul>
+                    <li>Mamíferos
+                        <ul>
+                            <li>Vacas</li>
+                            <li>Macacos</li>
+                            <li>Cachorros</li>
+                            <li>Tigres</li>
+                        </ul>
+                    </li>
+                    <li>Outros
+                        <ul>
+                            <li>Cobras</li>
+                            <li>Pássaros</li>
+                            <li>Lagartos</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        Resultado esperado:
+        <ul>
+            <li>Animais [9]
+                <ul>
+                    <li>Mamíferos [4]
+                        <ul>
+                            <li>Vacas</li>
+                            <li>Macacos</li>
+                            <li>Cachorros</li>
+                            <li>Tigres</li>
+                        </ul>
+                    </li>
+                    <li>Outros [3]
+                        <ul>
+                            <li>Cobras</li>
+                            <li>Pássaros</li>
+                            <li>Lagartos</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+</body>
+</html>
