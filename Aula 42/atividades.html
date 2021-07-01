@@ -1,0 +1,55 @@
+exercicio 1
+let dataParametros = new date(2012, 01, 20, 3, 12)
+console.log(dataParametros)
+
+exercicio 2
+
+let hoje = new Date()
+
+        function obtemDiaSemana(data) {
+            let dia
+            switch (data.getDay()) {
+                case 0:
+                    dia = "Domingo"
+                    break 
+
+                 case 1:  
+                    dia = "Segunda"   
+                 break
+
+                case 2: 
+                 dia = "Terça"     
+                 break
+
+               case 3:
+               dia = "Quarta"
+               break
+
+              case 4: 
+              dia = "Quinta"
+              break
+
+              case 5:
+              dia = "sexta"
+              break
+
+              case 6:
+              dia = "Sabado"
+              break
+            }
+
+            return dia
+        }
+    console.log(`Dia da semana: ${obtemDiaSemana(hoje)}`)
+
+    exercicio 3
+
+    let ano = 2021,
+            mes = 1
+        function obtemUltimoDiaMes(ano, mes) {            
+            return new Date(ano, mes + 1, 0).getDate()            
+        }
+        
+        console.log(`${obtemUltimoDiaMes(ano, mes)}`)
+
+    exercico 4
