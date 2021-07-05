@@ -1,0 +1,31 @@
+ class Alunos{
+            constructor( matricula, nome , nota1, nota2, trabalho) {
+                this.matricula = matricula
+                this.nome = nome
+                this.nota1 = nota1
+                this.nota2 = nota2
+                this.trabalho = trabalho
+            }
+
+            media() {
+                return (this.nota1 * 3 + this.nota2 * 3 + this.trabalho * 2) / 8
+            }
+
+            final() {
+                let media = this.media()
+
+                if (media < 6) {
+                    console.log ("Precisa fazer o exame.")
+                }
+                else (media > 6)
+                    console.log("Não precisa fazer o exame.")
+                }
+   
+            }
+
+        let nota1 = +prompt("Digite a nota da prova 1"),
+            nota2 = +prompt("Digite a nota da prova 2"),
+            trabalho = +prompt("Digite a nota do trabalho")
+
+        let aluno = new Alunos(123, "João", nota1, nota2, trabalho)
+        console.log(aluno.media())
