@@ -1,0 +1,77 @@
+ exercicio 1
+ 
+ atividade 1
+ let animal = {
+            pula: null
+        }
+
+        let coelho = {
+            __proto__: animal,
+            pula: true
+        }
+
+        console.log() // undefined
+
+        //delete coelho.pula
+
+        console.log(animal.pula) // null
+
+        //delete animal.pula
+
+        console.log(coelho.pula) // true
+
+atividade 2
+let cabeca = {
+            oculos: 1
+        }
+
+        let mesa = {
+            caneta: 3
+        }
+
+        let cama = {
+            lenco: 1,
+            travesseiro: 2
+        }
+
+        let bolso = {
+            dinheiro: 200
+        }
+
+        mesa.__proto__ = cabeca
+        cama.__proto__ = mesa
+        bolso.__proto__ = cama
+
+        console.log(bolso.caneta) // 3
+        console.log(cama.oculos) // 1
+        console.log(mesa.dinheiro)
+
+        atividade 3
+
+        
+        let estomago = {
+            comer(comida) {
+                this.maca.push(comida)
+        }
+        }
+        let hamtaro = {
+            __proto__ = estomago
+        }
+
+        let fofuxo = {
+            __proto__ = estomago
+        }
+
+        hamtaro.comer("Maçã")
+        console.log(hamtaro.maca) // Maçã
+
+        console.log(fofuxo.maca) // Maçã
+        
+        // Pois na variável hamster havia 2    e quando chamava as variáveis dos hamsters herdava estomago e comida, com isso dava comida pros 2.
+
+
+ exercicio 2
+
+
+atividade 1
+
