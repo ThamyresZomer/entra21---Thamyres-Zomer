@@ -1,0 +1,19 @@
+{
+  "name": "moduloses6",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Como utilizar os módulos ES6",
+  "main": "modulosES6.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
