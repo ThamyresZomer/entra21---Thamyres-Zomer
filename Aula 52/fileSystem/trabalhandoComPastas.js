@@ -88,6 +88,10 @@ e retorne um vetor com todos os arquivos presentes naquele diretório.
 
 Obs.: Diretórios não devem ser incluídos.
 
+
 2) Crie uma função moveFiles(oldFolderPath, newFolderPath) que move os arquivos da pasta original
 para a nova pasta.
+
+3) Crie uma função moveEspecificFiles(oldFolderPath, newFolderPath, extension) que move os arquivos
+com a extensão informada para a nova pasta.
 */
