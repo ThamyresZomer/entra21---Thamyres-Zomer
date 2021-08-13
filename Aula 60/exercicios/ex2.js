@@ -17,7 +17,7 @@ const db = require("./db");
             numero integer NOT NULL,
             cidade text NOT NULL,
             estado text NOT NULL,
-            cep character NOT NULL,
+            cep text NOT NULL,
             id_cliente integer NOT NULL REFERENCES clientes
         );
         
@@ -26,15 +26,15 @@ const db = require("./db");
             nome_autor text NOT NULL,
             assunto text NOT NULL,
             quantidade_estoque numeric NOT NULL,
-            preco character NOT NULL,
+            preco numeric NOT NULL,
             id_editora text NOT NULL
         );
         
         CREATE TABLE IF NOT EXISTS compras (
             id_cliente text NOT NULL,
             id_livro text NOT NULL,
-            data character NOT NULL,
-            valor character NOT NULL
+            data date NOT NULL,
+            valor numeric NOT NULL
         );
         
         CREATE TABLE IF NOT EXISTS editoras (

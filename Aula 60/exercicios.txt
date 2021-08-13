@@ -18,6 +18,7 @@ editoras(id, nome_gerente, telefone)
 
 3) Crie uma função insereCliente(cliente) que recebe o objeto cliente:
 {
+    nome, 
     numero_documento,
     tipo_pessoa,
     rua,
