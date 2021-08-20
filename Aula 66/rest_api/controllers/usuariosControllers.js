@@ -1,4 +1,3 @@
-
 const usuariosServices = require("../services/usuariosServices");
 
 async function getAll(req, res, next) {    

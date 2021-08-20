@@ -1,41 +1,53 @@
+const createError = require("http-errors");
 const { Usuario } = require("../db/models");
 
-async function getUsuarios() {
-const usuarios = await Usuario.findAll();
-
- res.json(usuarios);
-};
+async function getUsuarios() {    
+const usuarios = await Usuario.findAll(); 
+    return usuarios;   
+}
 
 async function getUsuario(id) {
-const usuario = await Usuario.findOne({
-where: {
-id: req.params.id
-}
-});
+    const usuario = await Usuario.findOne({ where: { id } });
 
- if (!usuario) {
-return res.status(404).json({ message: "Usuário não foi encontrado!" });
-}
+    if (!usuario) throw createError(404, "Usuário não encontrado!");
 
- res.json(usuario);
+    return usuario;
 }
 
 async function createUsuario(usuario) {
+    const usuarioJaExiste = await Usuario.findOne({
+        where: {
+            email: usuario.email
+        }
+    });
 
+    if (usuarioJaExiste) throw new createError(409, "Usuário já existe!");
+
+    return await Usuario.create(usuario);
 }
 
-async function updateUsuario(usuarioAtualizado) {
+async function updateUsuario(id, usuarioAtualizado) {    
+    const usuario = await Usuario.findOne({ where: { id } });
 
+    if (!usuario) throw new createError(404, "Usuário não encontrado!");
+
+    Object.assign(usuario, usuarioAtualizado);
+
+    await usuario.save();
 }
 
 async function removeUsuario(id) {
+    const usuario = await Usuario.findOne({ where: { id } });
 
+    if (!usuario) throw new createError(404, "Usuário não encontrado!");
+
+    await usuario.destroy();
 }
 
 module.exports = {
-getUsuarios,
-getUsuario,
-createUsuario,
-updateUsuario,
-removeUsuario
+    getUsuarios,
+    getUsuario,
+    createUsuario,
+    updateUsuario,
+    removeUsuario
 }
