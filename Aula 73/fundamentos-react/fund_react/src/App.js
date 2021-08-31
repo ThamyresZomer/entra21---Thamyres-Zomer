@@ -1,12 +1,17 @@
-import './App.css';
-import { ListaAlunos } from './components/ListaAlunos';
-import { ComProps } from './components/ComProps';
-import { PrimeiroComponente } from './components/PrimeiroComponente';
-import { Familia } from './components/Familia';
-import { MembroFamilia } from './components/MembroFamilia';
-import { Card } from './components/Card';
-import { Notificacao } from './components/Notificacao';
-import { ParOuImpar } from './components/ParOuImpar';
+import "./App.css";
+import { ListaAlunos } from "./components/ListaAlunos";
+import { ComProps } from "./components/ComProps";
+import { PrimeiroComponente } from "./components/PrimeiroComponente";
+import { Familia } from "./components/Familia";
+import { MembroFamilia } from "./components/MembroFamilia";
+import { Card } from "./components/Card";
+import { ParOuImpar } from "./components/ParOuImpar";
+import { Notificacao } from "./components/Notificacao";
+import { ManipulandoEventos } from "./components/ManipulandoEventos";
+import { Relogio } from "./components/Relogio"
+import { ValorAleatorio } from "./components/ValorAleatorio"
+import { ComponentesControlados } from "./components/ComponentesControlados"
+import { Contador } from "./components/Contador"
 
 function App() {
   return (
@@ -36,6 +41,20 @@ function App() {
         </Card>
         <hr/>
         <Notificacao mensagens={["oi"]}/>
+        <Card titulo ="Manipulando eventos">
+        <ManipulandoEventos/>
+        </Card>
+          <Card titulo="State">
+            {/* <Relogio/> */}
+            <hr/>
+            <ValorAleatorio max={100}/>
+            </Card> 
+            <Card titulo="Componentes Controlados">
+            <ComponentesControlados/>
+            </Card> 
+            <Card titulo="Contador">
+            <Contador/>
+            </Card> 
       </div>
     </div>
   );
