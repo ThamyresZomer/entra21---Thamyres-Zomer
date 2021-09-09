@@ -1,0 +1,21 @@
+.active {
+    background-color: red;
+}
+
+
+.ButtonOne {
+color: rgb(102, 224, 255);
+font-size: 1em;
+margin: 1em;
+padding: 0.25em 1em;
+border: 2px solid rgb(102, 224, 255);
+  border-radius: 3px;
+}
+.ButtonTwo {
+color: rgb(102, 224, 255);
+font-size: 1em;
+margin: 1em;
+padding: 0.25em 1em;
+border: 2px solid rgb(102, 224, 255);
+border-radius: 3px;
+}
